@@ -17,8 +17,10 @@ while True:
         whatToShow='MIDPOINT',
         useRTH=True,
         formatDate=1)
+
     if not bars:
         break
+        
     barsList.append(bars)
     dt = bars[0].date
     print(dt)
